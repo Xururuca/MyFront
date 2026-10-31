@@ -1,0 +1,21 @@
+{
+  "host": "your-server",
+  "port": 3306,
+  "user": "your-user",
+  "password": "your-password",
+  "database": "your-database",
+  "caFile": "C:\\path\\to\\ca.pem",
+  "importSamples": [
+    "C:\\path\\to\\optional-real-world-file.xlsx"
+  ],
+  "ssh": {
+    "host": "your-ssh-server",
+    "port": 22,
+    "user": "your-ssh-user",
+    "password": "your-ssh-password (or use keyFile + passphrase)",
+    "keyFile": null,
+    "passphrase": null,
+    "dbHost": "127.0.0.1",
+    "hostKey": "optional: expected key as 'ssh-ed25519 SHA256:…' (ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub)"
+  }
+}
